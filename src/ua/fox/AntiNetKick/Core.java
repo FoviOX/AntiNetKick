@@ -24,6 +24,7 @@ public class Core extends JavaPlugin implements Listener {
 	public void onNetKick(PlayerKickEvent e){
 		if(eqreasons.contains(e.getReason())) {
 			Player p = e.getPlayer();
+			System.out.println("[AntiNetKick[ - Игрок "+p.getName()+" имеет плохой пинг");
 			e.setCancelled(true);
 			p.sendMessage(msg);
 			return;
