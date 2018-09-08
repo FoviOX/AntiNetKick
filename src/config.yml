@@ -1,0 +1,4 @@
+Message-On-Net: "&7| &cСейчас у вас проблемы с интернетом. &7Проверте связь с интернетом"
+Equals-Reasons:
+- "Timed Out"
+Contains-Reasons: []
